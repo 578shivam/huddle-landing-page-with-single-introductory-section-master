@@ -39,6 +39,14 @@
       font-style: normal;
     }
 
+    *::before{
+      position: absolute;
+    inset: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+
     .head-left {
       margin-bottom: 140px;
       margin: 20px;
@@ -94,6 +102,7 @@
     cursor: pointer;
     }
     .social-link i{
+      position: relative;
     border: 2px solid white;
     border-radius: 50%;
     color: white;
